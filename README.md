@@ -5,6 +5,8 @@
   
 
 Change background of image using semantic segmentation implemented in Pytorch trained on HRNet ([Link](https://arxiv.org/pdf/1904.04514.pdf))
+
+Click and try here ([Link](http://bgchanger.azurewebsites.net/))
  
 ## Steps to run 
  1. Clone this repository
