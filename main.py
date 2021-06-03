@@ -60,7 +60,7 @@ def main():
     image = person.copy()
 
     bg = Image.open(args.bg_image)  # reads background image
-    bg = np.array(bg)
+    bg = np.array(bg)[:, :, :3]
     h, w, _ = image.shape
     hh, ww, cc = bg.shape
 
